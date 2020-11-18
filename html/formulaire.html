@@ -95,45 +95,61 @@
                         <a class="dropdown-item" href="#">Médias</a>
                     </div>
                 </li>
+                <li class="nav-item dropdown">
+                    <!-- Onglet Navbar -->
+                    <a class="nav-link dropdown-toggle dt-violet" href="#" id="le" data-toggle="dropdown">
+                        Liens externes
+                    </a>
+                    <!-- Sous menu -->
+                    <div class="dropdown-menu bg-dark hpurp">
+                        <a class="dropdown-item bt" href="http://ent.univ-artois.fr/">ENT</a>
+                        <a class="dropdown-item bt" href="http://gestionedt.emploisdutempssrc.net/">EDT</a>
+                        <a class="dropdown-item bt" href="https://cache.media.enseignementsup-recherche.gouv.fr/file/25/09/7/PPN_INFORMATIQUE_256097.pdf">PPN info</a>
+                        <a class="dropdown-item" href="http://www.iut-lens.univ-artois.fr/">IUT de Lens</a>
+                    </div>
+                </li>
             </ul>
         </div>
     </nav>
     <div class="container-fluid">
+        <div class="row bg-dark">
+            <h1 class="blanc">Contact</h1>
+        </div>
         <div class="row bg-grisp">
             <div class="formulaire col-lg-8">
                 <form>
                     <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputEmail4">Nom de l'entreprise</label>
-                            <input type="email" class="form-control">
+                        <div class="form-group col-lg-6">
+                            <label>Nom de l'entreprise</label>
+                            <input type="text" class="form-control">
                         </div>
-                        <div class="form-group col-md-3">
-                            <label for="inputAddress">Ville</label>
+                        <div class="form-group col-lg-3">
+                            <label>Ville</label>
                             <input type="text" class="form-control" id="inputVille" placeholder="Lens">
                         </div>
-                        <div class="form-group col-md-3">
-                            <label for="inputAddress">Code postal</label>
+                        <div class="form-group col-lg-3">
+                            <label>Code postal</label>
                             <input type="text" class="form-control" id="inputCodeP" placeholder="62300">
                         </div>
                     </div>
                     <div class="form-row">
-                        <div class="form-group col-md-8">
-                            <label for="inputAddress">Adresse</label>
+                        <div class="form-group col-lg-8">
+                            <label>Adresse</label>
                             <input type="text" class="form-control" id="inputAddress"
                                 placeholder="16 rue de l'Université">
                         </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputAddress2">Complément d'adresse</label>
+                        <div class="form-group col-lg-4">
+                            <label>Complément d'adresse</label>
                             <input type="text" class="form-control" id="inputAddress2"
                                 placeholder="Immeuble, numéro d'étage, etc">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="inputAddress2">Mail</label>
-                        <input type="text" class="form-control" id="inputEmail4">
+                        <label>Mail</label>
+                        <input type="text" class="form-control" id="inputEmail">
                     </div>
                     <div class="form-row">
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-lg-4">
                             <label for="inputState">Formation recherchée</label>
                             <select id="inputState" class="form-control">
                                 <option selected>Choisir...</option>
@@ -143,21 +159,30 @@
                                 <option>DUT Gestion des entreprises et des administrations</option>
                             </select>
                         </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputAddress2">Durée de nos stages recherchés</label>
+                        <div class="form-group col-lg-4">
+                            <label>Durée</label>
                             <input type="text" class="form-control" id="inputDuree" placeholder="10 semaines">
+                        </div>
+                        <div class="form-group col-lg-4">
+                            <label>Ajouter un ficher</label>
+                            <div class="input-group">
+                                <div class="custom-file">
+                                  <input type="file" class="custom-file-input" id="inputGroupFile01">
+                                  <label class="custom-file-label" for="inputGroupFile01">Choisir...</label>
+                                </div>
+                              </div>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="gridCheck">
-                            <label class="form-check-label" for="gridCheck">
+                            <label class="form-check-label">
                                 En cochant cette case vous acceptez que vos données soient utilisées et communiquées
                                 dans le but d'informer les étudiants.
                             </label>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Envoyez vos informations</button>
+                    <button type="submit" class="btn col boutturq">Envoyez vos informations</button>
                 </form>
             </div>
         </div>
@@ -166,11 +191,11 @@
             <div class="reseau col-3">
                 <a href="https://www.facebook.com/IUT.DE.LENS"><img src="../images/Facebook.svg" 
                         alt="facebook" title="facebook"/></a>
-                <a href="https://www.facebook.com/IUT.DE.LENS"><img src="../images/Twitter.svg" 
+                <a href="https://twitter.com/IUTdeLens?lang=fr"><img src="../images/Twitter.svg" 
                         alt="twitter" title="twitter" /></a>
-                <a href="https://www.facebook.com/IUT.DE.LENS"><img src="../images/YouTube.svg"
+                <a href="https://www.youtube.com/channel/UCND_qTgiKH9g6XeK_r2iNzw"><img src="../images/YouTube.svg"
                         alt="youtube" title="youtube" /></a>
-                <a href="https://www.facebook.com/IUT.DE.LENS"><img src="../images/LinkedIn.svg"
+                <a href="https://www.linkedin.com/edu/school?id=202008&trk=edu-cp-title"><img src="../images/LinkedIn.svg"
                         alt="linkedin" title="linkedin" /></a>
             </div>
             <div class="col-9">
@@ -180,9 +205,9 @@
             </div>
             
             <div class="lien">
-                <a href = "https://www.facebook.com/IUT.DE.LENS" >Annuaire</a>
-                <a href="https://www.facebook.com/IUT.DE.LENS">Mentions légales</a>
-                <a href="https://www.facebook.com/IUT.DE.LENS">Contacter l'IUT</a>
+                <a href = "http://www.iut-lens.univ-artois.fr/contact/annuaire/" >Annuaire</a>
+                <a href="http://www.iut-lens.univ-artois.fr/mentions-legales/">Mentions légales</a>
+                <a href="http://www.iut-lens.univ-artois.fr/contacts/contacter-liut-de-lens/">Contacter l'IUT</a>
             </div>
             <div class="col-lg-12 end">
                 <p>© 2019 IUT de Lens - 16 Rue de l’université - 62307 LENS Cedex - FRANCE</p>

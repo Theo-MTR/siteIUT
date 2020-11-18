@@ -1,12 +1,12 @@
 /* General */
 @font-face {
     font-family: "PoliceIUT";
-    src: url('font/font.ttf');
+    src: url('../font/font.ttf');
 }
 
 @font-face {
     font-family: "PoliceIUT2";
-    src: url('font/font2.otf');
+    src: url('../font/font2.otf');
 }
 
 .row {
@@ -38,7 +38,7 @@ h5 {
 
 body {
     background-color: #343a40;
-    font-family: "PoliceIUT2";
+    font-family: sans-serif;
 }
 
 .bt {
@@ -119,6 +119,10 @@ body {
     padding: 0;
     border: solid rgba(255, 255, 255, .2) 1px;
     text-align: center;
+    
+}
+
+nav .dropdown-menu {
     min-width: 100%
 }
 
@@ -213,106 +217,72 @@ iframe /*map google*/ {
 
 /* Couleur*/
 
-.dt-violet::after {
-    color: #a24392
+.dt-violet::after,
+.violet {
+    color: #9129ff
 }
 
-.dt-vert::after {
-    color: #d7db31
+.dt-vert::after,
+.vert {
+    color: #c4ff1c
 }
 
-.dt-orange::after {
+.dt-orange::after,
+.orange {
     color: #f58f0a
 }
 
-.dt-rose::after {
+.dt-rose::after,
+.rose {
     color: #ff0dcc
 }
 
-.dt-turquoise::after {
-    color: #00aca4
-}
-
+.dt-turquoise::after,
 .turquoise {
-    color: rgba(000, 172, 164, .6)
-}
-
-.vert {
-    color: rgba(215, 219, 49, .6)
-}
-
-.orange {
-    color: rgba(245, 143, 10, .6)
-}
-
-.rose {
-    color: rgba(255, 13, 204, .6)
-}
-
-.violet {
-    color: #a24392
+    color: rgb(00, 172, 154)
 }
 
 .blanc {
     color: lightgray;
 }
 
-.ft-turquoise {
-    background-color: rgba(000, 172, 164, .6)
-}
-
-.ft-vert {
-    background-color: rgba(215, 219, 49, .6)
-}
-
-.ft-orange {
-    background-color: rgba(245, 143, 10, .6)
-}
-
-.ft-violet {
-    background-color: rgba(162, 67, 146, .6)
-}
-
-.ft-rose {
-    background-color: rgba(255, 13, 204, .6)
-}
-
 .brd-turquoise {
-    border: solid rgba(000, 172, 164, .6) 3px
+    border: solid rgb(00, 172, 154) 3px
 }
 
 .brd-vert {
-    border: solid rgba(215, 219, 49, .6) 3px
+    border: solid #c4ff1c 3px
 }
 
 .brd-orange {
-    border: solid rgba(245, 143, 10, .6) 3px
+    border: solid #f58f0a 3px
 }
 
 .brd-rose {
-    border: solid rgba(255, 13, 204, .6) 3px
+    border: solid #ff0dcc 3px
 }
 
 .brd-violet {
-    border: solid rgba(162, 67, 146, .6) 3px
+    border: solid #9129ff 3px
 }
 
 .hpurp .dropdown-item:hover {
-    background-color: rgba(162, 067, 146, .6)
+    background-color: #9129ff
 }
 
 .hgreen .dropdown-item:hover {
-    background-color: rgba(215, 219, 49, .6)
+    background-color: #c4ff1c;
+    color: #343a40;
 }
 
 .horange .dropdown-item:hover {
-    background-color: rgba(245, 143, 10, .6)
+    background-color: #f58f0a
 }
 
 .hpink .dropdown-item:hover {
-    background-color: rgba(255, 13, 204, .6)
+    background-color: #ff0dcc
 }
 
-.hturq .dropdown-item:hover {
-    background-color: rgba(000, 172, 164, .6)
+.hturq .dropdown-item:hover, .boutturq {
+    background-color: rgb(000, 172, 154)
 }

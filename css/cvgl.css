@@ -54,3 +54,18 @@ h2 {
     object-fit: cover;
 }
 
+.entetee .dropdown-menu {
+    margin-top: 2%;
+    border-radius: 20px;
+}
+
+.entetee .dropdown-item {
+    background-color: lightgray;
+    color: black;
+   
+}
+
+.nopuce {
+    list-style-type: none;
+}
+
